@@ -1,12 +1,140 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Jhennifer Vilhena — Portfólio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700;900&family=Caveat:wght@600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <script src="script.js"></script>
+ 
+<section id="hero">
+  <div class="topline">
+    <span>Jhennifer Vilhena</span>
+    <span>PORTFÓLIO</span>
+  </div>
+  <div class="star" style="top:18%; left:8%;"></div>
+  <div class="star white" style="bottom:14%; left:38%; width:22px; height:22px;"></div>
+  <div class="wrap content">
+    <div class="kicker">olá, eu sou</div>
+    <h1>Jhennifer<br><em>Vilhena</em></h1>
+    <p>Iniciante em programação, aprendendo HTML, CSS e JavaScript e aplicando tudo em projetos reais. Aqui você encontra meus primeiros projetos e um pouco da minha jornada.</p>
+    <div class="cta-row">
+      <a href="#projetos" class="btn btn-gold">Ver projetos</a>
+      <a href="#sobre" class="btn btn-outline">Sobre mim</a>
+    </div>
+  </div>
+</section>
+ 
+<section id="sobre">
+  <div class="wrap grid">
+    <div>
+      <div class="hand-title">sobre<br>mim</div>
+      <div class="eye-card">
+        <svg viewBox="0 0 100 60" xmlns="http://www.w3.org/2000/svg">
+          <path d="M6 30 Q50 4 94 30 Q50 56 6 30 Z" fill="none" stroke="#3c1a5b" stroke-width="3.5" stroke-linecap="round"/>
+          <circle cx="50" cy="30" r="13" fill="#c9a227"/>
+          <circle cx="50" cy="30" r="5.5" fill="#141118"/>
+        </svg>
+        <p>ver a vida<br>com olhos<br>de amor</p>
+      </div>
+    </div>
+    <div>
+      <h2>Quem programa aqui</h2>
+      <p>Olá, sou a Jhennifer! Comecei no mundo da programação este ano e estou aprendendo tudo aos poucos. Tenho bastante dificuldade no caminho, mas estou aprendendo muito a cada projeto.</p>
+      <p>Já criei um site com ajuda de IA na Lovable e um site para minhas clientes avaliarem meu trabalho como cartomante — a IA construiu o código, mas as ideias e o visual foram todos meus.</p>
+      <p>Não pretendo seguir carreira em programação (meu sonho é ser médica veterinária), mas estou aproveitando tudo que aprendo aqui para construir coisas como este próprio portfólio.</p>
+      <div class="strip">
+        <div class="cell">HTML</div>
+        <div class="cell">JS</div>
+        <div class="cell">CSS</div>
+      </div>
+    </div>
+  </div>
+</section>
+ 
+<section id="skills">
+  <div class="wrap">
+    <span class="badge">stack</span>
+    <h2>Tecnologias que sei usar</h2>
+    <div class="skill-groups">
+      <div>
+        <h3>estrutura</h3>
+        <div class="chips">
+          <span class="chip">HTML</span><span class="chip">CSS (um pouco)</span>
+        </div>
+      </div>
+      <div>
+        <h3>lógica</h3>
+        <div class="chips">
+          <span class="chip">JavaScript</span>
+        </div>
+      </div>
+      <div>
+        <h3>com ajuda de IA</h3>
+        <div class="chips">
+          <span class="chip">Lovable</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+ 
+<section id="projetos">
+  <div class="wrap">
+    <span class="badge">trabalho</span>
+    <h2>Projetos</h2>
+    <div class="proj-list">
+      <article class="proj">
+        <div class="shot">petcare_aipsii</div>
+        <div class="body">
+          <h3>Petcare</h3>
+          <p>Projeto voltado para cuidados com pets, construído com HTML, CSS e JavaScript.</p>
+          <div class="tech">HTML · CSS · JavaScript</div>
+          <div class="links"><a href="https://github.com/jhennifervilhena-creator/petcare_aipsii" target="_blank" rel="noopener">Ver no GitHub</a></div>
+        </div>
+      </article>
+      <article class="proj">
+        <div class="shot">sorteador-de-jogos</div>
+        <div class="body">
+          <h3>Sorteador de Jogos</h3>
+          <p>Aplicação que sorteia jogos, feita para praticar lógica em JavaScript.</p>
+          <div class="tech">HTML · JavaScript</div>
+          <div class="links"><a href="https://github.com/jhennifervilhena-creator/sorteador-de-jogos" target="_blank" rel="noopener">Ver no GitHub</a></div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+ 
+<section id="exp">
+  <div class="wrap">
+    <span class="badge">formação</span>
+    <h2>Cursos</h2>
+    <div class="timeline">
+      <div class="titem">
+        <div class="when">em andamento</div>
+        <h3>SENAI</h3>
+        <p>Cursando atualmente, aprofundando os conhecimentos em programação.</p>
+      </div>
+    </div>
+  </div>
+</section>
+ 
+<section id="contato">
+  <div class="wrap">
+    <h2>Vamos conversar?</h2>
+    <p>Aberta a oportunidades, freelas e trocas de ideia sobre código.</p>
+    <div class="contact-links">
+      <a href="#" class="btn btn-outline">GitHub</a>
+    </div>
+  </div>
+</section>
+ 
+<script src="script.js"></script>
 </body>
 </html>
+ 
